@@ -7,10 +7,13 @@ function configureListeners() {
     } 
 }
 
+
 function addOpacity(event) {
     if (!this.classList.contains('dim')){
         this.classList.add('dim')
-    }    
+    }   
+    // let element = document.getElementById("color")
+    // element.textContent = "hello"
     getProductInfo(event.target.id);     
 }
 
